@@ -475,7 +475,7 @@ a.read_more:hover {
 
 #service {
     padding: 60px 0px;
-    background: #CA8400;
+    background: #434a84;
 }
 #service h2{
   color: #fff;
@@ -497,7 +497,7 @@ a.read_more:hover {
 
 .service_icon {
     width: 90px;
-    height: 85px;
+    height: 105px;
     margin: 0px auto 25px;
     border-bottom: 1px dashed #FFCF74;
 }
@@ -786,7 +786,7 @@ img {
 
 
 .client_logos {
-    background: #585858;
+    background: #d5d5d5;
     padding: 60px 0;
     margin-top: 60px;
 }
@@ -1177,7 +1177,7 @@ border: 1px solid #CE1139;
 }
 
 .gplus a:hover {
-    color: #dd4b39;
+    color: #128C7E;
 }
  
 
