@@ -2,8 +2,8 @@
 Author: http://webthemez.com 
 */
 @charset "utf-8";
-@import url(http://fonts.googleapis.com/css?family=Raleway:800,700,400);
-@import url(http://fonts.googleapis.com/css?family=Signika:400,600);
+@import url(https://fonts.googleapis.com/css?family=Raleway:800,700,400);
+@import url(https://fonts.googleapis.com/css?family=Signika:400,600);
 
 /* Reset
 ---------------------------------*/
@@ -786,7 +786,7 @@ img {
 
 
 .client_logos {
-    background: #d5d5d5;
+    /* background: #d5d5d5; */
     padding: 60px 0;
     margin-top: 60px;
 }
@@ -870,9 +870,7 @@ background-position-y: 70px;
 }
 
 .about-us .points:before{
-	content: "\f058";
 	position: absolute;
-	font-family: FontAwesome;
 	font-size: 1.125em;
 	color: #989898;
 	left: 0px;
