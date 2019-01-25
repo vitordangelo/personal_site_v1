@@ -1,12 +1,12 @@
-var gulp = require('gulp'),
-broswerSync = require('browser-sync');
+var gulp = require('gulp');
+var browserSync = require('browser-sync').create();
+var reload = browserSync.reload;
 
-gulp.task('server', function() {
-  broswerSync.init({
+gulp.task('serve', function () {
+  browserSync.init({
     server: {
-      baseDir: 'src'
+      baseDir: "./src"
     }
   });
-
-  gulp.watch('src/**/*').on('change', broswerSync.reload);
+  gulp.watch("*.html").on("change", reload);
 });
